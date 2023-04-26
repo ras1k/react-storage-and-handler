@@ -23,6 +23,7 @@ const Cosmetic = (props) => {
             <p><small>ID : {id}</small></p>
             {/* <button onClick={addToCartWithParam}>Add To Cart</button> */}
             <button onClick={() => addToCart(id)}>Add To Cart</button>
+            <br/>
             <button onClick={() => removeFromCart(id)}>Remove From Cart</button>
         </div>
     );

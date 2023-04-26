@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { add } from '../../utilities/calculate';
 import Cosmetic from '../Cosmetic/Cosmetic';
 
+
 const Cosmetics = (props) => {
     const [cosmetics, setCosmetics] = useState([]);
     useEffect(()=>{
